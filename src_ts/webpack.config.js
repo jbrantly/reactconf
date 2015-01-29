@@ -11,7 +11,7 @@ module.exports = {
     devtool: 'source-map',
     module: {
         loaders: [
-            { test: /\.ts$/, loader: 'ts?sourceMap' }
+            { test: /\.ts$/, loader: 'ts?sourceMap!ts-jsx' }
         ]
     }
 };
