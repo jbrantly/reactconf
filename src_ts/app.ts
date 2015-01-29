@@ -38,7 +38,7 @@ class App extends React.Component<any, State, any> {
 	render() {
 		return React.jsx(`<div className="app">
 			<div className="title">Picture Purrfect</div>
-			<ImageViewer index={this.state.photoIndex+''} />
+			<ImageViewer index={this.state.photoIndex} />
 			<div>
 				<button 
 					disabled={this.state.photoIndex == 0} 
