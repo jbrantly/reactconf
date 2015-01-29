@@ -1,0 +1,13 @@
+{
+  "name": "PicturePurrfect",
+  "version": "1.0.0",
+  "description": "Demonstration of React integration with TypeScript and Flow",
+  "dependencies": {
+    "jsx-loader": "^0.12.2",
+    "react": "^0.13.0-beta.1",
+    "ts-jsx-loader": "^0.1.0",
+    "ts-loader": "^0.2.2"
+  },
+  "author": "James Brantly",
+  "license": "MIT"
+}
